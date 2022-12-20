@@ -1,23 +1,31 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import About from '../pages/About'
-import Contact from '../pages/Contact'
-import Home from '../pages/Home'
-import Services from '../pages/Services'
-import Testimonial from '../pages/Testimonial'
+import React from "react";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/sections/Footer";
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+import Home from "../pages/Home";
+import Potfolio from "../pages/Potfolio";
+import Services from "../pages/Services";
+import Testimonial from "../pages/Testimonial";
 
 function Routers() {
   return (
-    <div>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/contact' element={<Contact/>}/>
-        <Route path='/services' element={<Services/>}/>
-        <Route path='/reviews' element={<Testimonial/>}/>
-      </Routes>
-    </div>
-  )
+    <Router>
+      <Navbar />
+      <div className="box-middle sm:mt-16">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/potfolio" element={<Potfolio />} />
+          <Route path="/reviews" element={<Testimonial />} />
+        </Routes>
+      </div>
+      <Footer />
+    </Router>
+  );
 }
 
-export default Routers
+export default Routers;

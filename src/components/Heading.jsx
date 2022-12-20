@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Heading({ title,subTitle }) {
   return (
-    <div data-aos="fade-left" data-aos-duration="1000">
+    <div  data-aos="fade-left" data-aos-duration="1000">
       <div className=" overflow-hidden capitalize font-bold font-poppins text-xl pl-1 w-[90%] md:w-[96%] mx-auto  border-b border-blue/75  text-slate-300 py-2 sm:text-2xl md:text-2xl xl:text-3xl mb-20 mt-8">
         <div className="relative w-fit ">
           {title}
