@@ -1,3 +1,4 @@
+import burger from "../assets/burger.jpg";
 import games from "../assets/games.jpg";
 import one from "../assets/image/1 (1).jpg";
 import two from "../assets/image/1 (2).jpg";
@@ -166,6 +167,14 @@ export const potfolio = [
   },
   {
     id: 3,
+    name: "burger lover",
+    image: burger,
+    technology: ["javascript (ES6+)", "react js", "tailwind css", "figma"],
+    github: "#",
+    deploy_url: "#",
+  },
+  {
+    id: 4,
     name: "jumping game",
     image: games,
     technology: ["html 5", "css 3", "javascript (ES6+)"],
