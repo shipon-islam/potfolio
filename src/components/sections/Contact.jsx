@@ -59,7 +59,7 @@ export default function Contact() {
       <ToastContainer />
 
       <Heading title="contact me" subTitle="how to meet?" />
-      <div className="flex flex-col md:flex-row ">
+      <div className="flex flex-col-reverse md:flex-row ">
         <div data-aos="fade-right" data-aos-duration="1000" className="py-10">
           <ContactSvg />
         </div>
