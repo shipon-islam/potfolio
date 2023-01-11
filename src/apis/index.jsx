@@ -7,7 +7,7 @@ import four from "../assets/image/1 (4).jpg";
 import five from "../assets/image/1 (5).jpg";
 import nav_logo from "../assets/image/band-logos.png";
 import six from "../assets/image/joe lerry.jpg";
-import black_image from "../assets/image/latest-bw.jpeg";
+import black_image from "../assets/image/latest-bw2.jpeg";
 import color_image from "../assets/image/latest-color.jpg";
 import personal from "../assets/potfolio.jpg";
 import sellbd from "../assets/sellbd.jpg";
