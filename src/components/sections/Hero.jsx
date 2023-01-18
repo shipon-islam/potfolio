@@ -30,7 +30,7 @@ export default function Hero() {
             {hero.fouth}
           </p>
           <button className=" hover:hero-btn border-2 hover:transition-all duration-500 rounded-sm border-blue uppercase py-2 px-4 text-blue hover:text-slate-900 hover:bg-blue shadow-blue  text-sm font-inter font-bold">
-            <a href="./My Resume.pdf" download={true}>
+            <a href="./My official resume.pdf" download={true}>
               download resume
             </a>
           </button>

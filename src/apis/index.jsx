@@ -171,7 +171,7 @@ export const potfolio = [
     image: burger,
     technology: ["javascript (ES6+)", "react js", "tailwind css", "figma"],
     github: "#",
-    deploy_url: "#",
+    deploy_url: "http://burgerlover.onrender.com/",
   },
   {
     id: 4,
