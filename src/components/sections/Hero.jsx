@@ -4,7 +4,7 @@ import Images from "../Images";
 
 export default function Hero() {
   return (
-    <div className="mt-32  mb-40 sm:mb-32 ">
+    <div className="mt-24 md:mt-32  mb-24 sm:mb-32 ">
       <article className="grid grid-cols-1 md:grid-cols-2  md:mt-24 px-6 ">
         <aside data-aos="fade-right" data-aos-duration="1000">
           <small className="font-poppins block font-bold text-left text-base text-blue md:text-left">

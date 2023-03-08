@@ -39,8 +39,8 @@ export const navbar = {
     },
     {
       id: 4,
-      name: "potfolio",
-      path: "/potfolio",
+      name: "showcase",
+      path: "/showcase",
       my: 3,
     },
     {
@@ -65,7 +65,7 @@ export const hero = {
   second: "shipon islam",
   third: "I build website for client.",
   fouth:
-    "I'm a fullstack web developer who specializing in building web things.I'm focused on building UI design and development together.I make 100% error free website for client satisfaction that make me awesome.",
+    "I'm a full-stack web developer who specializes in building web things. I'm focused on building UI design and development together. I make 100% error-free website for client satisfaction which make me awesome.",
   color_image,
 };
 
@@ -73,70 +73,111 @@ export const hero = {
 export const about = {
   color_image,
   black_image,
-  first_paragraph: `Hello! My name is Shipon islam and I enjoy creating things that live
-    on the internet. My interest in web development started back in
-    2012 when I decided to try editing custom Tumblr themes — turns
-    out hacking together a custom reblog button taught me a lot about
-    HTML & CSS!`,
-  second_paragraph: `Fast-forward to today, and I’ve had the privilege of working at an
-    advertising agency, a start-up, a huge corporation, and a
-    student-led design studio. My main focus these days is building
-    accessible, inclusive products and digital experiences at
-    Upstatement for a variety of clients.`,
-  third_paragraph: `Here are a few technologies I’ve been working with recently`,
-  technologies1: ["JavaScript (ES6+)", "node js", "mongo db", "tailwind css"],
-  technologies2: ["React js", "express js", "firebase", "bootstrap 5"],
+  about_info: {
+    paragraph: [
+      {
+        id: 1,
+        para: "Hello! My name is Shipon islam. I'm a full-stack web developer who loves to create amazing user experiences. I specialize in using the latest technologies like JavaScript, React.js, Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, and Firebase to build robus and scalable web applications from scratch.",
+      },
+      {
+        id: 2,
+        info: "I've been working in the tech industry for several years, and I have a lot of experience building web applications. I use React.js and Next.js to create responsive and dynamic user interfaces that are easy to use. I also use Tailwind CSS to make your website look beautiful and professional.",
+      },
+      {
+        id: 3,
+        para: "On the server-side, I use Node.js and Express.js to create fast and reliable applications. And when it comes to data storage, I use MongoDB and Firebase to keep everything organized and efficient.",
+      },
+      {
+        id: 4,
+        para: "On the server-side, I use Node.js and Express.js to create fast and reliable applications. And when it comes to data storage, I use MongoDB and Firebase to keep everything organized and efficient.",
+      },
+      {
+        id: 5,
+        para: `I keep up with the latest trends and technologies in web development so that I can build the best websites possible. I always try to make sure that my work exceeds client expectations, and I want to make sure that you have an amazing experience working with me.
+        So, if you need a web developer who can help you create an amazing website, let's talk!`,
+      },
+    ],
+    technologies1: [
+      "JavaScript (ES6+)",
+      "node js",
+      "firebase",
+      "mongo db",
+      "tailwind css",
+    ],
+    technologies2: [
+      "React js",
+      "Next js",
+      "express js",
+      "redux toolkit",
+      "bootstrap 5",
+    ],
+    choose1: [
+      "2year+ experience",
+      "clean code",
+      "100% error free",
+      "requirement analysis",
+      "100% working dedication",
+    ],
+    choose2: [
+      "readable code",
+      "hand code",
+
+      "unlimited revision",
+      "before live preview",
+      "client satisfaction",
+    ],
+  },
 };
 
 // services section card list
 export const services = [
   {
     id: 1,
-    cardHead: "UI Design for web",
-    desc: "To create the wave layout,You need to create a visual ui first.there are many tools for creating ui.Figma is best among them.",
+    cardHead: "web UI with figma",
+    desc: "Figma is a popular cloud-based design and prototyping tool that allows designers to create and collaborate on user interfaces, prototypes, and design systems in real-time. It provides a wide range of features and plugins.",
     tools: ["Figma", "Adobi XD", "Sketch"],
   },
   {
     id: 2,
     cardHead: "Design with bootstrap",
-    desc: "Bootstrap,the world’s most popular framework for building responsive, mobile-first sites, with js.it's easy and customizable framework",
+    desc: "Bootstrap is a widely used open-source front-end framework that provides a set of pre-designed HTML, CSS, and JavaScript components for building responsive and mobile-first websites and applications.",
     tools: ["JavaScript", "CSS-3", "Bootstrap-5"],
   },
   {
     id: 3,
     cardHead: "Design with tailwind",
-    desc: "the most populer and mordern css framework is tailwind css.it's utility first framework.it build website without ever leaving HTML",
+    desc: "Tailwind CSS is a popular utility-first CSS framework that provides a wide range of pre-designed classes for building modern and responsive user interfaces. It allows developers to rapidly style their applications without custom CSS.",
     tools: ["HTML-5", "Tailwind CSS", "JavaScript"],
   },
   {
     id: 4,
-    cardHead: "fontend with react.js",
-    desc: "Building a single page web application you need world's most popular React js.it's super awesome and optimizing and web page not reload.",
+    cardHead: "Frontend with react.js",
+    desc: "React.js is an open-source JavaScript library for building user interfaces.it used by developers to create dynamic and responsive web applications. React.js uses a component-based architecture for reusable pieces of code.",
     tools: ["React.Js", "Tailwind CSS", "Vite.Js"],
   },
 
   {
     id: 5,
-    cardHead: "build with next.js",
-    desc: "Building a single page website but behave like multi-page you need next js.it's also can server site rendering that's cool and awesome.it's a react js framework",
+    cardHead: "Build with next.js",
+    desc: "Next.js is a popular open-source framework for building server-side rendered React applications. It provides a set of tools and features for building static,server-side rendering and dynamic web pages with optimized performance.",
     tools: ["Next.Js", "Tailwind CSS", "Firebase"],
   },
   {
     id: 6,
-    cardHead: "web dev with firebase",
-    desc: "firebase is a backend service which developed by google.without backend knowledge you will make fullstack website from fontend.",
+    cardHead: "Build with firebase",
+    desc: "Firebase is a mobile and web application development platform that provides a suite of backend services, including real-time database, cloud storage, authentication, hosting for quickly build app.",
     tools: ["React.Js", "Tailwind CSS", "Firebase"],
   },
   {
     id: 7,
-    cardHead: "Web dev with express",
-    desc: "Building a single page web application you need world's most popular React js.it's super awesome and optimizing and web page not reload",
+    cardHead: "Build with express.js",
+    desc: "Express.js is a minimalist web framework for Node.js that simplifies the process of building web applications and APIs. It provides a set of robust features for creating HTTP servers and routing requests with middleware architecture.",
     tools: ["HTML-5", "Express.Js", "MongoDB"],
   },
   {
     id: 8,
-    cardHead: "web dev with mongo db",
-    desc: "Building a single page web application you need world's most popular React js.it's super awesome and optimizing and web page not reload",
+    cardHead: "build with mongo db",
+    desc: "MongoDB is a popular NoSQL database that uses a document-based model to store data in a flexible and scalable way. It is designed to handle large amounts of unstructured data and is often used in modern web applications.",
     tools: ["React.js", "Express.JS", "MongoDB"],
   },
 ];

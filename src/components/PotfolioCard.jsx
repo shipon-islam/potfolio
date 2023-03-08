@@ -7,7 +7,7 @@ export default function PotfolioCard(props) {
   return (
     <div
       className='relative before:content-[""] before:absolute before:w-full before:h-full before:bg-blue/20 
-    before:inset-0 before:z-30 before:rounded-md font-montserrat overflow-hidden'
+    before:inset-0 before:z-30 before:rounded-md font-poppins overflow-hidden'
     >
       <img className=" rounded-md w-full h-full" src={image} alt="potfolio" />
       <div
@@ -18,7 +18,7 @@ export default function PotfolioCard(props) {
           {name}
         </h3>
         <hr />
-        <p className="capitalize text-blue text-md font-medium  ">
+        <p className="capitalize text-blue text-md font-medium mt-1">
           technolozy usage:
         </p>
         <div>
@@ -41,7 +41,7 @@ export default function PotfolioCard(props) {
           <div>
             <AiFillGithub className="text-xl inline-block mr-[0.1rem] mb-1 text-blue" />
             <a
-              className="underline capitalize hover:text-blue font-medium "
+              className="underline capitalize hover:text-blue "
               href={github}
               target="blank"
             >
@@ -51,7 +51,7 @@ export default function PotfolioCard(props) {
           <div>
             <AiOutlineFolderView className="text-[1.4rem] inline-block mr-[0.1rem] mb-1 text-blue" />
             <a
-              className="underline capitalize hover:text-blue font-medium"
+              className="underline capitalize hover:text-blue"
               href={deploy_url}
               target="blank"
             >

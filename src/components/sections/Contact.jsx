@@ -24,14 +24,13 @@ export default function Contact() {
     setuserDetails({ ...userDetails, [name]: value });
   };
 
-
   //send message from user to admin
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     const { name, email, message } = userDetails;
     if (!name || !email || !message) {
-      return toast.warn("fill & try again!");
+      return toast.warn("All Fields Required! ✍");
     }
     buttonRef.current.disabled = true;
     setloading(true);
@@ -53,7 +52,7 @@ export default function Contact() {
       toast.success("Message sent successfuly ✔");
     }
   };
- 
+
   return (
     <div className="font-poppins">
       <ToastContainer />
@@ -88,13 +87,7 @@ export default function Contact() {
           />
           <Button
             ref={buttonRef}
-            name={
-              loading ? (
-                <Spin/>
-              ) : (
-                "send"
-              )
-            }
+            name={loading ? <Spin /> : "send"}
             onClick={handleSubmit}
           />
         </form>

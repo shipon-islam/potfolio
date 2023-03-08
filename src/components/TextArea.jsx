@@ -5,7 +5,7 @@ export default function TextArea({ label, type = "text", ...rest }) {
     <div>
       <label
         htmlFor={label}
-        className="capitalize font-semibold pb-1 pl-1 inline-block"
+        className="capitalize font-medium pb-1 pl-1 inline-block"
       >
         {label}
       </label>

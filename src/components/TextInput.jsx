@@ -1,11 +1,16 @@
 import React from "react";
 
-export default function TextInput({ label,type="text",my="my-0", ...rest }) {
+export default function TextInput({
+  label,
+  type = "text",
+  my = "my-0",
+  ...rest
+}) {
   return (
     <div className={my}>
       <label
         htmlFor={label}
-        className="capitalize font-semibold pb-1 pl-1 inline-block"
+        className="capitalize font-medium pb-1 pl-1 inline-block"
       >
         {label}
       </label>

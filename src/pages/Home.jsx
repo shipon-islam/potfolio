@@ -2,8 +2,8 @@ import React from "react";
 import About from "../components/sections/About";
 import Contact from "../components/sections/Contact";
 import Hero from "../components/sections/Hero";
-import Potfolio from "../components/sections/Potfolio";
 import Services from "../components/sections/Services";
+import Showcase from "../components/sections/Showcase";
 import Testimonials from "../components/sections/Testimonials";
 
 function Home() {
@@ -14,7 +14,7 @@ function Home() {
         <About />
       </div>
       <Services />
-      <Potfolio />
+      <Showcase />
       <div className="md:my-12 my-4">
         <Testimonials />
       </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FcAndroidOs } from "react-icons/fc";
 import { Link, NavLink } from "react-router-dom";
 import { navbar } from "../../apis";
 
@@ -7,7 +8,7 @@ export default function Navbar() {
   const { nav_logo, links } = navbar;
   return (
     <>
-      <div className="bg-slate-900 w-full z-50 max-w-[1450px] mx-auto px-3 md:px-16 fixed top-0">
+      <div className="bg-slate-900 w-full z-50 max-w-[1450px] mx-auto px-3 md:px-16 fixed top-0 right-1/2 left-1/2 -translate-x-1/2">
         <nav
           className="flex relative 
        justify-between items-center pt-2 "
@@ -37,6 +38,14 @@ export default function Navbar() {
                 {link.name}
               </NavLink>
             ))}
+            <a
+              className="hover:hero-btn hover:bg-blue hover:text-slate-900  hover:transition-all duration-500 lg:hidden py-2  ml-9 mt-8 text-[0.8rem] border-2 border-[#0EA5E9] rounded-lg w-[85%] text-center uppercase flex items-center justify-center"
+              href="https://expo.dev/artifacts/eas/qYqRQK8adVa7SF3ERB1PA4.apk"
+              download={true}
+            >
+              <span>download mobile app</span>
+              <FcAndroidOs className="text-xl ml-1" />
+            </a>
           </div>
           <button
             className="block lg:hidden"
