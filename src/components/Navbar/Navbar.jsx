@@ -39,12 +39,12 @@ export default function Navbar() {
               </NavLink>
             ))}
             <a
-              className="hover:hero-btn hover:bg-blue hover:text-slate-900  hover:transition-all duration-500 lg:hidden py-2  ml-9 mt-8 text-[0.8rem] border-2 border-[#0EA5E9] rounded-lg w-[85%] text-center uppercase flex items-center justify-center"
+              className="hover:hero-btn hover:bg-blue hover:text-slate-900  hover:transition-all duration-500 lg:hidden py-2  ml-9 mt-8 text-[0.9rem] border-2 border-[#0EA5E9] rounded-lg w-[85%] text-center uppercase flex items-center justify-center font-medium"
               href="https://expo.dev/artifacts/eas/qYqRQK8adVa7SF3ERB1PA4.apk"
               download={true}
             >
               <span>download mobile app</span>
-              <FcAndroidOs className="text-xl ml-1" />
+              <FcAndroidOs className="text-[1.3rem] ml-1" />
             </a>
           </div>
           <button
