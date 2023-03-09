@@ -25,6 +25,7 @@ export default function About() {
   const { black_image, color_image, about_info } = about;
   const { paragraph, technologies1, technologies2, choose1, choose2 } =
     about_info;
+  console.log(paragraph);
   return (
     <div className="font-poppins">
       <Heading title="about me" subTitle="who iam?" />
@@ -32,7 +33,7 @@ export default function About() {
         <div
           data-aos="fade-right"
           data-aos-duration="1000"
-          className="hidden md:block md:pr-16 md:pb-8 lg:pb-14 float-left relative z-10"
+          className="hidden md:block md:pr-16 md:pb-8 lg:pb-24 float-left relative z-10"
         >
           <Images image={black_image} />
         </div>
@@ -49,7 +50,7 @@ export default function About() {
             {paragraph.map((item) => (
               <p
                 key={item.id}
-                className="text-left font-inter text-[1.1rem]   mb-4"
+                className="text-left font-inter text-[1.1rem] mb-4"
               >
                 {item.para}
               </p>

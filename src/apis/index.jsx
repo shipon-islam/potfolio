@@ -81,7 +81,7 @@ export const about = {
       },
       {
         id: 2,
-        info: "I've been working in the tech industry for several years, and I have a lot of experience building web applications. I use React.js and Next.js to create responsive and dynamic user interfaces that are easy to use. I also use Tailwind CSS to make your website look beautiful and professional.",
+        para: "I've been working in the tech industry for several years, and I have a lot of experience building web applications. I use React.js and Next.js to create responsive and dynamic user interfaces that are easy to use. I also use Tailwind CSS to make your website look beautiful and professional.",
       },
       {
         id: 3,
@@ -89,10 +89,6 @@ export const about = {
       },
       {
         id: 4,
-        para: "On the server-side, I use Node.js and Express.js to create fast and reliable applications. And when it comes to data storage, I use MongoDB and Firebase to keep everything organized and efficient.",
-      },
-      {
-        id: 5,
         para: `I keep up with the latest trends and technologies in web development so that I can build the best websites possible. I always try to make sure that my work exceeds client expectations, and I want to make sure that you have an amazing experience working with me.
         So, if you need a web developer who can help you create an amazing website, let's talk!`,
       },
