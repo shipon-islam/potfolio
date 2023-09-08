@@ -1,4 +1,5 @@
 import burger from "../assets/burger.jpg";
+import friendsclub from "../assets/friendsclub.png";
 import games from "../assets/games.jpg";
 import one from "../assets/image/1 (1).jpg";
 import two from "../assets/image/1 (2).jpg";
@@ -10,7 +11,10 @@ import six from "../assets/image/joe lerry.jpg";
 import black_image from "../assets/image/latest-bw2.jpeg";
 import color_image from "../assets/image/latest-color.jpg";
 import personal from "../assets/potfolio.jpg";
+import prayertimeMosque from "../assets/prayertime.png";
+import rental from "../assets/rental.png";
 import sellbd from "../assets/sellbd.jpg";
+import usamosque from "../assets/usamosque.png";
 
 import { emptyStar, fullStar, hulfStar } from "./Icon";
 
@@ -77,7 +81,7 @@ export const about = {
     paragraph: [
       {
         id: 1,
-        para: "Hello! My name is Shipon islam. I'm a full-stack web developer who loves to create amazing user experiences. I specialize in using the latest technologies like JavaScript, React.js, Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, and Firebase to build robus and scalable web applications from scratch.",
+        para: "Hello! My name is Shipon islam. I'm a full-stack web developer who loves to create amazing user experiences. I specialize in using the latest technologies like JavaScript, React.js, Next.js, Tailwind CSS, Node.js, Express.js, MongoDB, and Firebase to build robust and scalable web applications from scratch.",
       },
       {
         id: 2,
@@ -188,7 +192,8 @@ export const potfolio = [
       "javascript (ES6+)",
       "react js",
       "node js",
-      "mongo Db",
+      "mongodb",
+      "css",
       "tailwind css",
     ],
     github: "#",
@@ -201,17 +206,49 @@ export const potfolio = [
     technology: ["javascript (ES6+)", "react js", "tailwind css", "type js"],
     github: "#",
     deploy_url: "https://shipons.netlify.app/",
-  },
-  {
-    id: 3,
+  },{
+    id: 4,
     name: "burger lover",
-    image: burger,
+    image:burger ,
     technology: ["javascript (ES6+)", "react js", "tailwind css", "figma"],
     github: "#",
     deploy_url: "http://burgerlover.onrender.com/",
   },
   {
     id: 4,
+    name: "prayer time for mosque",
+    image: prayertimeMosque,
+    technology: ["javascript (ES6+)", "react js","firebase","css","tailwind css", "figma"],
+    github: "#",
+    deploy_url: "https://usaprayertime.vercel.app",
+  },
+  
+  {
+    id: 5,
+    name: "usa mosque",
+    image: usamosque,
+    technology: ["javascript (ES6+)","next js","react js","css","tailwind css", "figma"],
+    github: "#",
+    deploy_url: "https://usamosque.vercel.app/",
+  },
+  {
+    id: 6,
+    name: "usa rental apt",
+    image: rental,
+    technology: ["javascript (ES6+)","next js", "react js", "tailwind css","node js","mongodb", "figma"],
+    github: "#",
+    deploy_url: "http://burgerlover.onrender.com/",
+  },
+  {
+    id: 7,
+    name: "friends club social media",
+    image: friendsclub,
+    technology: ["javascript (ES6+)", "react js","firebase","framer-motion","tailwind css", "figma"],
+    github: "#",
+    deploy_url: "https://friendsclub.onrender.com/",
+  },
+  {
+    id: 8,
     name: "jumping game",
     image: games,
     technology: ["html 5", "css 3", "javascript (ES6+)"],

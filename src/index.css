@@ -184,8 +184,135 @@ html {
   left: 0;
   clip-path: circle(16.1% at 100% 100%);
 }
-#potfolio-card:hover {
-  transition: all 700ms;
-
+#protfolioImg:hover #potfolio-card {
+  transition: all 800ms;
   clip-path: circle(141.4% at 100% 100%) !important;
+  @apply border;
+}
+.circle {
+  position: absolute;
+}
+.circle:nth-child(1) {
+  bottom: -100px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(2) {
+  bottom: -50px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(3) {
+  bottom: -20px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(4) {
+  bottom: -200px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(5) {
+  bottom: -150px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(5) {
+  bottom: -150px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(6) {
+  bottom: -50px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(7) {
+  bottom: -150px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(8) {
+  bottom: -220px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(9) {
+  bottom: -130px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(10) {
+  bottom: -170px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(11) {
+  bottom: -100px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(12) {
+  bottom: -200px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(13) {
+  bottom: -100px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(14) {
+  bottom: -250px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(15) {
+  bottom: -50px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(16) {
+  bottom: -150px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(17) {
+  bottom: -350px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(18) {
+  bottom: -450px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(19) {
+  bottom: -55px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(20) {
+  bottom: -100px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(21) {
+  bottom: -250px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+.circle:nth-child(22) {
+  bottom: -50px;
+  right: 0px;
+  animation: circleA 4s linear infinite;
+}
+
+@keyframes circleA {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(200px, -500px);
+  }
 }
